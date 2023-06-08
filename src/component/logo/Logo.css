@@ -1,0 +1,8 @@
+.logo-section img {
+	width: 125px;
+	height: 50px;
+}
+
+.logo-section:hover {
+	cursor: pointer;
+}

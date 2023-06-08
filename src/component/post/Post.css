@@ -1,0 +1,54 @@
+.post-container {
+	margin: 10px;
+	position: relative;
+}
+
+.post-image {
+	width: 300px;
+	height: 300px;
+	display: block;
+
+	background-position: center;
+	background-size: cover;
+}
+
+.post-overlay {
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	color: white;
+	opacity: 0;
+}
+
+.post-container:hover {
+	cursor: pointer;
+}
+
+.post-container:hover .post-overlay {
+	opacity: 1;
+}
+
+.post-container:hover .post-image {
+	filter: brightness(60%);
+}
+
+.post-intro-img {
+	width: 20px;
+	height: 20px;
+}
+
+.post-overlay span:first-child {
+	margin-right: 15px;
+}
+
+.post-overlay span {
+	display: flex;
+	align-items: center;
+}
+
+.post-overlay span img {
+	margin-right: 7px;
+}

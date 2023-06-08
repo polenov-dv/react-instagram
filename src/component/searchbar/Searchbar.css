@@ -1,0 +1,38 @@
+.search-section {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+#searchbar {
+	padding: 6px;
+	width: 200px;
+
+	border-radius: 5px;
+	border: 1px solid rgb(200, 200, 200);
+}
+
+#searchbar:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #bdbdbd;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.searchbar-placeholder {
+	display: flex;
+	position: absolute;
+	left: 10px;
+
+	font-size: 16px;
+	color: rgb(150, 150, 150);
+}
+
+
+
+.searchbar-placeholder img {
+	height: 20px;
+	padding-right: 5px;
+	cursor: text;
+}

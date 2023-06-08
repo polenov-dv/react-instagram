@@ -1,0 +1,30 @@
+.header-container {
+	padding: 8px;
+	border-bottom: 1px solid rgb(220, 220, 220);
+	background-color: white;
+
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	width: 960px;
+	margin: auto;
+}
+
+.actions-section {
+	display: flex;
+	align-items: center;
+}
+
+.actions-section div:first-child {
+	margin-right: 15px;
+}
+
+.logo-section {
+	font-family: Brush Script MT, Brush Script Std;
+	font-size: 32px;
+}
