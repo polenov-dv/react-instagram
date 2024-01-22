@@ -1,0 +1,1 @@
+export { ModalAbout } from './ui/ModalAbout';
